@@ -1,38 +1,574 @@
-<!-- TWS GAMING EARBUDS -->
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MAD MAX | Online Store</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f5f7;
+    color:#222;
+}
+
+header{
+    background:#111827;
+    color:white;
+    padding:14px 5%;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:900;
+    color:#ff9d00;
+}
+
+.search{
+    flex:1;
+    min-width:220px;
+    padding:13px;
+    border:0;
+    border-radius:8px;
+    font-size:15px;
+}
+
+.cart{
+    font-weight:bold;
+}
+
+.notice{
+    background:#fff7df;
+    padding:10px;
+    text-align:center;
+    font-size:14px;
+}
+
+.container{
+    max-width:1200px;
+    margin:25px auto;
+    padding:0 15px;
+}
+
+.title{
+    margin-bottom:20px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:22px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:18px;
+    box-shadow:0 4px 18px rgba(0,0,0,.08);
+}
+
+.image-box{
+    height:300px;
+    background:#f8f8f8;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+
+.image-box img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+.product-name{
+    font-size:23px;
+    font-weight:bold;
+    margin:18px 0 8px;
+}
+
+.price{
+    font-size:30px;
+    color:#d62828;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.rating{
+    display:inline-block;
+    background:#16803c;
+    color:white;
+    padding:5px 8px;
+    border-radius:5px;
+    font-size:13px;
+    margin:8px 0;
+}
+
+.features{
+    padding-left:20px;
+    line-height:1.7;
+}
+
+.button{
+    width:100%;
+    border:0;
+    padding:14px;
+    border-radius:9px;
+    background:#ff7a00;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.button:hover{
+    opacity:.9;
+}
+
+.watch-gallery{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:8px;
+    margin-top:10px;
+}
+
+.watch-gallery img{
+    width:100%;
+    height:75px;
+    object-fit:contain;
+    background:#f7f7f7;
+    border-radius:8px;
+}
+
+.watch-details{
+    background:#f7f7f7;
+    padding:15px;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+.watch-details h3{
+    margin-top:0;
+}
+
+.watch-details p{
+    margin:8px 0;
+    font-size:14px;
+}
+
+.section{
+    background:white;
+    padding:25px;
+    margin-top:25px;
+    border-radius:15px;
+}
+
+.specs{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+}
+
+.spec{
+    background:#f5f5f5;
+    padding:14px;
+    border-radius:8px;
+}
+
+footer{
+    margin-top:35px;
+    padding:25px;
+    background:#111827;
+    color:#aaa;
+    text-align:center;
+}
+
+@media(max-width:750px){
+
+    .products{
+        grid-template-columns:1fr;
+    }
+
+    .image-box{
+        height:280px;
+    }
+
+    .specs{
+        grid-template-columns:1fr;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+<header>
+
+    <div class="logo">🔥 MAD MAX</div>
+
+    <input
+        class="search"
+        type="search"
+        placeholder="Search products..."
+    >
+
+    <div class="cart">🛒 Cart</div>
+
+</header>
+
+
+<div class="notice">
+    🛍️ MAD MAX Online Store
+</div>
+
+
+<div class="container">
+
+<h2 class="title">
+    🛍️ Featured Products
+</h2>
+
+
+<div class="products">
+
+
+<!-- ================= AIRPODS ================= -->
 
 <div class="card">
 
     <div class="image-box">
+
         <img
-            src="1000161535.jpg"
-            alt="TWS Gaming Earbuds"
+            src="atelierbyvineeth-rN1hLIGV4gE-unsplash.jpg"
+            alt="Apple AirPods 4"
         >
+
     </div>
+
 
     <div class="product-name">
-        TWS Gaming Earbuds
+        Apple AirPods 4
     </div>
 
-    <span class="rating">★ 4.5</span>
+
+    <span class="rating">
+        ★ 4.5
+    </span>
+
 
     <p>
-        Stylish wireless gaming earbuds with a modern charging case.
+        Wireless earbuds with charging case.
     </p>
 
+
     <div class="price">
-        ₹299
+        ₹101
     </div>
 
+
     <ul class="features">
-        <li>🎧 Wireless Bluetooth connectivity</li>
-        <li>🎮 Gaming-style design</li>
-        <li>💡 LED display charging case</li>
-        <li>🔋 Rechargeable battery</li>
-        <li>🎵 Suitable for music & calls</li>
+
+        <li>🎧 H2 headphone chip</li>
+
+        <li>📶 Bluetooth 5.3</li>
+
+        <li>🔌 USB-C charging case</li>
+
+        <li>🎵 Up to 5 hours listening</li>
+
     </ul>
+
 
     <button class="button" onclick="demo()">
         🛒 अभी खरीदें
     </button>
 
 </div>
+
+
+
+<!-- ================= SMART WATCH ================= -->
+
+<div class="card">
+
+    <div class="image-box">
+
+        <img
+            src="Watch_Orange_jpg_81563ebc-ff95-48af-9775-a49919c8014a_jpg_600x.jpg"
+            alt="Smart Watch"
+        >
+
+    </div>
+
+
+    <div class="watch-gallery">
+
+        <img
+            src="Watch_Orange_jpg_81563ebc-ff95-48af-9775-a49919c8014a_jpg_600x.jpg"
+            alt="Watch Image 1"
+        >
+
+        <img
+            src="UltraIntelligentTimepiece_1_1024x.png"
+            alt="Watch Image 2"
+        >
+
+        <img
+            src="61NK-fiGLWL.jpg"
+            alt="Watch Image 3"
+        >
+
+    </div>
+
+
+    <div class="product-name">
+        Smart Watch
+    </div>
+
+
+    <span class="rating">
+        ★ 4.5
+    </span>
+
+
+    <p>
+        Stylish smartwatch with a modern design.
+    </p>
+
+
+    <div class="price">
+        ₹51
+    </div>
+
+
+    <ul class="features">
+
+        <li>⌚ Stylish modern smartwatch design</li>
+
+        <li>📱 Android & iOS compatible</li>
+
+        <li>🔔 Smart notifications</li>
+
+        <li>🏃 Activity tracking</li>
+
+        <li>🔋 Rechargeable battery</li>
+
+    </ul>
+
+
+    <div class="watch-details">
+
+        <h3>
+            ⌚ Smart Watch की जानकारी
+        </h3>
+
+        <p>
+            <strong>📱 Compatibility:</strong>
+            Android & iOS
+        </p>
+
+        <p>
+            <strong>🔔 Notifications:</strong>
+            Calls & messages
+        </p>
+
+        <p>
+            <strong>🏃 Activity:</strong>
+            Steps & activity tracking
+        </p>
+
+        <p>
+            <strong>🔋 Battery:</strong>
+            Rechargeable
+        </p>
+
+        <p>
+            <strong>🔗 Connectivity:</strong>
+            Bluetooth
+        </p>
+
+    </div>
+
+
+    <button class="button" onclick="demo()">
+        🛒 अभी खरीदें
+    </button>
+
+</div>
+
+
+
+<!-- ================= TWS EARBUDS ================= -->
+
+<div class="card">
+
+    <div class="image-box">
+
+        <img
+            src="1000161535.jpg"
+            alt="TWS Gaming Earbuds"
+        >
+
+    </div>
+
+
+    <div class="product-name">
+        TWS Gaming Earbuds
+    </div>
+
+
+    <span class="rating">
+        ★ 4.5
+    </span>
+
+
+    <p>
+        Stylish wireless gaming earbuds with a modern charging case.
+    </p>
+
+
+    <div class="price">
+        ₹299
+    </div>
+
+
+    <ul class="features">
+
+        <li>🎧 Wireless Bluetooth connectivity</li>
+
+        <li>🎮 Gaming-style design</li>
+
+        <li>💡 LED display charging case</li>
+
+        <li>🔋 Rechargeable battery</li>
+
+        <li>🎵 Suitable for music & calls</li>
+
+    </ul>
+
+
+    <button class="button" onclick="demo()">
+        🛒 अभी खरीदें
+    </button>
+
+</div>
+
+
+</div>
+
+
+
+<!-- ================= WHY MAD MAX ================= -->
+
+<div class="section">
+
+    <h2>
+        📦 Why Shop With MAD MAX?
+    </h2>
+
+
+    <div class="specs">
+
+        <div class="spec">
+
+            <strong>
+                🛍️ Products
+            </strong>
+
+            <br>
+
+            Multiple products in one place
+
+        </div>
+
+
+        <div class="spec">
+
+            <strong>
+                📱 Mobile Friendly
+            </strong>
+
+            <br>
+
+            Designed for phone users
+
+        </div>
+
+
+        <div class="spec">
+
+            <strong>
+                🔎 Easy Search
+            </strong>
+
+            <br>
+
+            Find products quickly
+
+        </div>
+
+
+        <div class="spec">
+
+            <strong>
+                🔥 MAD MAX
+            </strong>
+
+            <br>
+
+            Our independent online store
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+<footer>
+
+    © 2026 MAD MAX • Independent Online Store
+
+</footer>
+
+
+
+<script>
+
+function demo(){
+
+    alert(
+        "MAD MAX\n\n" +
+        "Product page is being prepared.\n" +
+        "Real payment/order system is not active yet."
+    );
+
+}
+
+</script>
+
+
+</body>
+
+</html>
